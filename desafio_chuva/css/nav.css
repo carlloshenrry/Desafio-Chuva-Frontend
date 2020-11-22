@@ -1,0 +1,122 @@
+.navbar{
+    padding-left: 15%;
+    background-color: #FDF1EB;
+    height: 10vh;
+    
+}
+
+.p1{
+    flex:0;
+    font-size: 0.7vw;
+    margin-bottom: 0;
+    margin-left: 4vw;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.p2{
+    flex: 0;
+    font-size: 1vw;
+    margin-left: 4vw;
+    margin-bottom: 0;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.p3{
+    flex: 0;
+    font-size: 0.5vw;
+    margin-left: 4vw;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    
+}
+
+.borddrop{
+    border-style: solid;
+    border-color: gray;
+    border-width: 1px;
+    margin-bottom: 1vw;
+}
+.lng{
+    font-family: Quicksand;
+    font-size: 14px;
+    line-height: 17px;
+    margin-right: 1vw;
+    float: left;
+    margin-right: 0vw;
+    margin-top: 0.25vw;
+    max-width: 100%;
+}
+
+.hello{
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+/* identical to box height */
+    text-align: right;
+    margin-bottom: 0vh;
+    margin-right: 4vw;
+}
+
+.email{
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    text-align: right;
+    margin-right: 4vw;
+}
+
+.person{
+     margin-left: 10vw;
+     margin-top: -12vh;
+     border-width: 1px;
+     border-radius: 20vw;
+    
+}
+
+.materia{
+    text-align: left;
+    margin-left: 19vw;
+    margin-top: 4vh;
+    max-width: 50%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 25px;
+    /* or 125% */
+    letter-spacing: 0.05em;
+    color: #ED7839;
+    
+}
+
+.organiza{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.buttons{
+    margin-top: -8vh;
+    margin-right: 3vw;
+}
+
+.buttons button{
+    background-color: #ED7839;
+    margin-left: 1vw;
+    border-radius: 4px;
+}
