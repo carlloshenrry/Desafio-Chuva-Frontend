@@ -1,0 +1,170 @@
+
+.anexbotao{
+    background: linear-gradient(180deg, #FEB254 0%, #F0813D 100%);
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.12), 0px 2px 2px rgba(0, 0, 0, 0.24);
+    border-radius: 4px;
+    width: 10vw;
+    margin-top: -4vh;
+}
+
+.cardtst{
+   
+}
+
+.formtst{
+    background: #FFFFFF;
+    border: 1px solid #E7E7E7;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.12);
+    border-radius: 8px;
+    margin-top: 2vh;
+    height: 31vh;
+}
+
+.formtstocult{
+    -webkit-filter: blur(3px);
+    background: #FFFFFF;
+    border: 1px solid #E7E7E7;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.12);
+    border-radius: 8px;
+    margin-top: 2vh;
+    height: 31vh;
+}
+
+.assuntotst{
+    border: none;   
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+    color: #ED7839;
+    margin-bottom: 1vh;
+}
+
+.nametst{
+    border: none;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+   
+}
+
+.duvidatst{
+    border: none;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #4D4D4D;
+}
+
+
+
+.ocultabotao{
+    display: none;
+}
+
+.imgjs{
+    float: left;
+    margin-left: 1vw;
+}
+
+.imgjs2{
+    
+    float: left;
+    margin-left: 1vw;
+    width: 32px;
+    margin-top: -0.5vh;
+}
+
+.contclass{
+    float: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: 350;
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height */
+    color: #757575;
+    margin-left: 1vw;
+}
+
+.liketxt{
+    float: left;
+    margin-top: -0.2vh;
+    margin-left: 1vw;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: 350;
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height */
+    color: #757575;
+}
+
+.check{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 23px;
+    color: #707070;
+    border-radius: 4px;
+    position: absolute;
+    margin-left: 0vw;
+    margin-top: -25vh;
+}
+
+.aviso{
+    position: absolute;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    margin-left: 28vw;
+    margin-top: -20vh;
+    color: #707070;
+}
+
+
+
+.backclass{
+    position: absolute;
+/* identical to box height */
+    text-decoration-line: underline;
+    color: #ED7839;
+    margin-left: -5vw;
+    margin-top: -15vh;
+    border: none;
+    background-color: transparent;
+
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.respclass{
+    position: absolute;
+/* identical to box height */
+    text-decoration-line: underline;
+    color: #ED7839;
+    margin-left: 1vw;
+    margin-top: -15vh;
+    border: none;
+    background-color: transparent;
+
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+}
