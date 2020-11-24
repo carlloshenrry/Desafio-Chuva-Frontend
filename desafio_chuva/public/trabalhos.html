@@ -47,19 +47,20 @@
         </div>
 
         <li class="nav-item dropdown borddrop">
-            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
-                aria-expanded="false">
+            <a class="nav-link dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" href="#"
+                role="button" aria-haspopup="true" aria-expanded="false">
 
                 <img src="../img/language image.png" alt="" style="float: left; padding-bottom: 2vh;">
                 <p class="lng"> PT, BR </p>
 
             </a>
-            <div class="dropdown-menu">
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                 <a class="dropdown-item" href="trabalhos.html" style="color: black;">EN, US</a>
                 <a class="dropdown-item" href="trabalhos.html" style="color: black;"> HR, HR</a>
                 <a class="dropdown-item" href="trabalhos.html" style="color: black;"> ES,ES</a>
             </div>
         </li>
+
         <li class="nav-item">
             <p class="hello">Bem vindo!</p>
             <p class="email">alguem12@galoascience.com</p>
@@ -282,7 +283,7 @@
             <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
                 <div class="card-body">
                     <div>
-                        <p style="font-family: Roboto;
+                        <p id="titlediscussion" style="font-family: Roboto;
                     font-style: normal;
                     font-weight: bold;
                     font-size: 22px;
@@ -291,14 +292,19 @@
                     color: #ED7839;"> Compartilhe suas ideias ou dúvidas com os autores! </p>
                     </div>
 
-                    <div class="container configicon">
+                    <div id="imgdiscussion" class="container configicon">
                         <img style="margin-left: 0;" src="../img/icone1.png" alt="">
                         <img style="margin-left: 6vw;" src="../img/icone2.png" alt="">
                         <img style="margin-left: 6vw;" src="../img/icone3.png" alt="">
                     </div>
 
                     <div>
-                        <p style="font-family: Quicksand;
+                        <button id="trabplus" class="trabplus trabocult"> <span class="trabplus"> Descubra outros
+                                trabalhos!</span> </button>
+                    </div>
+
+                    <div>
+                        <p id="discussion" style="font-family: Quicksand;
                         font-style: normal;
                         font-weight: normal;
                         max-width: 50vw;
@@ -310,45 +316,51 @@
                             curiosidade? Deixe seus questionamentos ou sugestões para o autor!</p>
                     </div>
 
+
+
                     <div style="text-align: center;">
-                        <button onclick="createForm()" class="buttoncreat"> <img src="../img/icon - criar.png" alt="">
-                            <span style="color: white;">criar tópico</span></button>
+                        <button onclick="createForm()" id="buttontopic" class="buttoncreat"> <img id="imgplus"
+                                class="imgplus" src="../img/icon - criar.png" alt="">
+                            <span id="texttpic" style="color: white;">criar tópico</span></button>
                         <div id="formcontent" class="card" style="border-radius: 8px;">
-                            
+
 
                         </div>
                     </div>
 
-                
+
+
+                </div>
 
             </div>
-
         </div>
+        <div></div>
+        <footer class="footer footerStyle">
+            <div class="container" style="padding-top: 2%;padding-bottom: 2%">
+                <div class="row ">
+                    <div class="col-4" style="float: left;">
+                        <h5 style="padding-left: 3em"></h5>
+                        <ul align="left">
+                            <img style="width: 20vw;" src="../img/galoa-logo.png" alt="">
+                            <button class="saibamais">Saiba mais</button>
+                        </ul>
+                    </div>
+
+                    <div style="float: left;">
+                        <p class="creditos" style="margin-top: 8vh;"> <span class="creditos"
+                                style="font-weight: bold; position: relative;"> Preservar a memória da conferência e
+                                aumentar o alcance do conhecimento
+                                científico </span> é a razão pela qual o Processo de Galoá foi criado.</p>
+                        <p class="creditos" style="margin-top: 15vh;">Os trabalhos da conferência publicados aqui são de
+                            acesso aberto e nossa
+                            indexação mantém os trabalhos apresentado na conferência fácil de encontrar e
+                            citar.</p>
+                    </div>
+                </div>
+            </div>
     </div>
-    <div></div>
-    <footer class="footer footerStyle">
-        <div class="container" style="padding-top: 2%;padding-bottom: 2%">
-            <div class="row ">
-                <div class="col-4" style="float: left;">
-                    <h5 style="padding-left: 3em"></h5>
-                    <ul align="left">
-                        <img style="width: 20vw;" src="../img/galoa-logo.png" alt="">
-                        <button class="saibamais">Saiba mais</button>
-                    </ul>
-                </div>
-
-                <div style="float: left;">
-                    <p class="creditos" style="margin-top: 8vh;"> <span class="creditos" style="font-weight: bold; position: relative;"> Preservar a memória da conferência e aumentar o alcance do conhecimento
-                        científico </span> é a razão pela qual o Processo de Galoá foi criado.</p>
-                    <p  class="creditos" style="margin-top: 15vh;">Os trabalhos da conferência publicados aqui são de acesso aberto e nossa
-                        indexação mantém os trabalhos apresentado na conferência fácil de encontrar e
-                        citar.</p>
-                </div>
-            </div>
-        </div>
-</div>
-</footer>
-</div>
+    </footer>
+    </div>
 
 
 
@@ -357,5 +369,3 @@
 
 
 </html>
-
-

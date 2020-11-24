@@ -1,12 +1,12 @@
-.navbar{
+.navbar {
     padding-left: 15%;
     background-color: #FDF1EB;
     height: 10vh;
-    
+
 }
 
-.p1{
-    flex:0;
+.p1 {
+    flex: 0;
     font-size: 0.7vw;
     margin-bottom: 0;
     margin-left: 4vw;
@@ -17,7 +17,7 @@
     line-height: 16px;
 }
 
-.p2{
+.p2 {
     flex: 0;
     font-size: 1vw;
     margin-left: 4vw;
@@ -29,7 +29,7 @@
     line-height: 26px;
 }
 
-.p3{
+.p3 {
     flex: 0;
     font-size: 0.5vw;
     margin-left: 4vw;
@@ -38,16 +38,17 @@
     font-weight: normal;
     font-size: 14px;
     line-height: 16px;
-    
+
 }
 
-.borddrop{
+.borddrop {
     border-style: solid;
     border-color: gray;
     border-width: 1px;
     margin-bottom: 1vw;
 }
-.lng{
+
+.lng {
     font-family: Quicksand;
     font-size: 14px;
     line-height: 17px;
@@ -58,19 +59,19 @@
     max-width: 100%;
 }
 
-.hello{
+.hello {
     font-family: Quicksand;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 17px;
-/* identical to box height */
+    /* identical to box height */
     text-align: right;
     margin-bottom: 0vh;
     margin-right: 4vw;
 }
 
-.email{
+.email {
     font-family: Quicksand;
     font-style: normal;
     font-weight: normal;
@@ -81,15 +82,15 @@
     margin-right: 4vw;
 }
 
-.person{
-     margin-left: 10vw;
-     margin-top: -12vh;
-     border-width: 1px;
-     border-radius: 20vw;
-    
+.person {
+    margin-left: 10vw;
+    margin-top: -12vh;
+    border-width: 1px;
+    border-radius: 20vw;
+
 }
 
-.materia{
+.materia {
     text-align: left;
     margin-left: 19vw;
     margin-top: 4vh;
@@ -102,22 +103,21 @@
     /* or 125% */
     letter-spacing: 0.05em;
     color: #ED7839;
-    
+
 }
 
-.organiza{
+.organiza {
     max-width: 100%;
     max-height: 100%;
 }
 
-.buttons{
+.buttons {
     margin-top: -8vh;
     margin-right: 3vw;
 }
 
-.buttons button{
+.buttons button {
     background-color: #ED7839;
     margin-left: 1vw;
     border-radius: 4px;
 }
-
