@@ -2,7 +2,6 @@
     padding-left: 15%;
     background-color: #FDF1EB;
     height: 10vh;
-
 }
 
 .p1 {
@@ -13,7 +12,7 @@
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 0.95vw;
     line-height: 16px;
 }
 
@@ -25,7 +24,7 @@
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 22px;
+    font-size: 1.55vw;
     line-height: 26px;
 }
 
@@ -36,9 +35,8 @@
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 0.9vw;
     line-height: 16px;
-
 }
 
 .borddrop {
@@ -46,11 +44,12 @@
     border-color: gray;
     border-width: 1px;
     margin-bottom: 1vw;
+    width: 8vw;
 }
 
 .lng {
     font-family: Quicksand;
-    font-size: 14px;
+    font-size: 1vw;
     line-height: 17px;
     margin-right: 1vw;
     float: left;
@@ -63,7 +62,7 @@
     font-family: Quicksand;
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 0.95vw;
     line-height: 17px;
     /* identical to box height */
     text-align: right;
@@ -75,7 +74,7 @@
     font-family: Quicksand;
     font-style: normal;
     font-weight: normal;
-    font-size: 12px;
+    font-size: 0.7vw;
     line-height: 15px;
     /* identical to box height */
     text-align: right;
@@ -83,11 +82,11 @@
 }
 
 .person {
-    margin-left: 10vw;
+    margin-left: 9.5vw;
     margin-top: -12vh;
     border-width: 1px;
     border-radius: 20vw;
-
+    width: 2vw;
 }
 
 .materia {
@@ -98,12 +97,11 @@
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 1.3vw;
     line-height: 25px;
     /* or 125% */
     letter-spacing: 0.05em;
     color: #ED7839;
-
 }
 
 .organiza {
@@ -120,4 +118,74 @@
     background-color: #ED7839;
     margin-left: 1vw;
     border-radius: 4px;
+}
+
+.iconlng {
+    float: left;
+    padding-bottom: 2vh;
+    width: 1.8vw;
+}
+
+@media (max-width: 576px) {
+    .borddrop {
+        margin-top: -3vh;
+    }
+    .iconlng {
+        display: none;
+    }
+    .p1 {
+        margin-top: -0.2vh !important;
+    }
+    .p2 {
+        font-size: 1.5vw !important;
+    }
+    .p3 {
+        font-size: 0.9vw !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .p1 {
+        font-size: 1.1vw !important;
+    }
+    .p2 {
+        font-size: 1.6vw !important;
+    }
+    .p3 {
+        font-size: 1vw !important;
+    }
+    .borddrop {
+        width: 12vw !important;
+    }
+    .person {
+        width: 3.5vw !important;
+    }
+}
+
+@media (max-width: 992px) {
+    .p1 {
+        margin-top: 0vw !important;
+        font-size: 1.1vw !important;
+    }
+    .p2 {
+        font-size: 1.6vw !important;
+        margin-top: 1.5vw !important;
+    }
+    .p3 {
+        font-size: 1vw !important;
+        margin-top: 2vw !important;
+    }
+    .borddrop {
+        width: 10vw !important;
+    }
+    .hello {
+        margin-right: 7vw;
+    }
+    .email {
+        margin-right: 7vw;
+    }
+    .person {
+        margin-top: -10vh;
+        margin-left: 9vw;
+    }
 }

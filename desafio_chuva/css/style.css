@@ -1,6 +1,6 @@
 .cardbr {
     position: absolute;
-    margin-left: 35vw;
+    margin-left: 65vw;
     margin-top: 10vh;
 }
 
@@ -8,7 +8,7 @@
     font-family: Quicksand;
     font-style: normal;
     font-weight: normal;
-    font-size: 16px;
+    font-size: 1vw;
     line-height: 120%;
     /* or 14px */
     letter-spacing: 0.02em;
@@ -19,10 +19,9 @@
     font-family: Quicksand;
     font-style: normal;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 1.09vw;
     line-height: 120%;
     /* or 14px */
-
     letter-spacing: 0.02em;
     margin-top: 0vw;
 }
@@ -31,12 +30,22 @@
     font-family: Quicksand;
     font-style: normal;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 1.23vw;
     line-height: 120%;
     /* or 14px */
-
     letter-spacing: 0.02em;
     margin-top: 0vw;
+}
+
+.textcard4 {
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 120%;
+    /* or 14px */
+    margin-top: -2vh;
+    font-size: 0.93vw;
+    letter-spacing: 0;
 }
 
 .scroll {
@@ -65,11 +74,10 @@
 }
 
 .titleacc {
-
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 1.35vw;
     line-height: 25px;
     /* identical to box height, or 125% */
     display: flex;
@@ -88,7 +96,7 @@
     font-family: Quicksand;
     font-style: normal;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 0.9vw;
     line-height: 23px;
     letter-spacing: 0.02em;
     cursor: pointer;
@@ -98,7 +106,7 @@
     font-family: Quicksand;
     font-style: normal;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 0.95vw;
     line-height: 23px;
     letter-spacing: 0.02em;
     color: #5C5C5C;
@@ -107,9 +115,7 @@
 .configicon {
     text-align: center;
     margin-top: 5vh;
-
 }
-
 
 .saibamais {
     display: flex;
@@ -120,7 +126,7 @@
     border-radius: 5px;
     color: #FFF;
     margin: 0 auto;
-    width: 200px;
+    width: 13.5vw;
 }
 
 .creditos {
@@ -128,14 +134,26 @@
     font-family: Quicksand;
     font-style: normal;
     font-weight: normal;
-    font-size: 18px;
+    font-size: 1.2vw;
     line-height: 23px;
     letter-spacing: 0.02em;
+    margin-top: 8vh;
+    width: 52vw;
 }
 
+.creditos2 {
+    position: absolute;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.2vw;
+    line-height: 23px;
+    letter-spacing: 0.02em;
+    margin-top: 15vh;
+    width: 52.5vw;
+}
 
 .buttoncreat {
-
     background: linear-gradient(180deg, #FEB254 0%, #F0813D 100%);
     box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.12), 0px 2px 2px rgba(0, 0, 0, 0.24);
     border-radius: 4px;
@@ -147,4 +165,123 @@
 .buttoncreat:active {
     outline: none;
     border: none;
+}
+
+.icondlw {
+    cursor: pointer;
+}
+
+.dwld {
+    cursor: pointer;
+}
+
+.cdDetalhes {
+    position: absolute;
+    max-width: 18rem;
+    max-height: 50vh;
+}
+
+.sbmais {
+    font-size: 1vw;
+}
+
+.galoa {
+    width: 20vw;
+}
+
+@media (max-width: 576px) {
+    .butinterger {
+        width: 4vw !important;
+        height: 3vh !important;
+    }
+    .iconbut {
+        margin-top: -1.3vh !important;
+        margin-left: -1vw !important;
+        width: 1.8vw !important;
+    }
+    .icdoi button img {
+        margin-top: -1vh !important;
+    }
+    .buttoncreat {
+        width: 12vw !important;
+        height: 4vh !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .butinterger {
+        width: 5vw !important;
+        height: 4vh !important;
+    }
+    .dwld {
+        display: none !important;
+    }
+    .iconbut {
+        position: absolute !important;
+        width: 1.8vw !important;
+        margin-top: -1vh !important;
+        margin-left: -0.8vw !important;
+        cursor: pointer !important;
+    }
+    .cardbr {
+        margin-left: 70vw !important;
+    }
+    .btw {
+        height: 3vh !important;
+    }
+    .cdDetalhes {
+        width: 22vw !important;
+    }
+    .textcard {
+        font-size: 1.15vw !important;
+    }
+    .textcard2 {
+        font-size: 1.3vw !important;
+    }
+    .textcard3 {
+        font-size: 1.4vw !important;
+    }
+    .textcard4 {
+        font-size: 0.93vw !important;
+    }
+    .textacc {
+        font-size: 1.25vw !important;
+    }
+    .buttoncreat {
+        width: 12vw !important;
+        height: 4vh !important;
+    }
+    .galoa {
+        width: 15vw !important;
+    }
+    .creditos {
+        margin-top: 2vh !important;
+    }
+    .creditos2 {
+        margin-top: 9vh !important;
+    }
+}
+
+@media (max-width: 992px) {
+    .cardbr {
+        margin-left: 68vw !important;
+    }
+    .butinterger {
+        margin-top: 2vh !important;
+        width: 3vw !important;
+        height: 3vh !important;
+    }
+    .icdoi {
+        margin-right: 4vw !important;
+    }
+    .dwld {
+        display: none !important;
+    }
+    .iconbut {
+        position: absolute !important;
+        width: 1.8vw !important;
+        margin-top: -1vh !important;
+        margin-left: -0.8vw !important;
+        cursor: pointer !important;
+    }
 }

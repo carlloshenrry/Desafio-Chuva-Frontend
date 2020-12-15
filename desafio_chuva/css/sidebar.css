@@ -1,12 +1,11 @@
 @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
-
 .wrapper {
     display: flex;
     width: 100%;
 }
 
 #sidebar {
-    width: 250px;
+    width: 16.75vw;
     position: fixed;
     top: 0;
     left: 0;
@@ -17,11 +16,9 @@
     transition: all 0.3s;
 }
 
-/* Media query */
-@media (max-width: 768px) {
-    #sidebar.active {
-        margin-left: 0;
-    }
+.slaca13 {
+    width: 15vw;
+    height: 35vh;
 }
 
 body {
@@ -65,8 +62,15 @@ a:focus {
 }
 
 #slacatitle {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.5vw;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
     text-align: center;
-
+    color: white;
 }
 
 #sidebar div h3 {
@@ -83,7 +87,6 @@ a:focus {
     padding: 20px 0;
     border-bottom: 1px solid #FDF1EB;
 }
-
 
 #sidebar ul li a {
     padding: 10px;
@@ -118,12 +121,10 @@ ul ul a {
     font-family: Quicksand;
     font-style: normal;
     font-weight: 500;
-    font-size: 15px;
+    font-size: 1.25vw;
     line-height: 19px;
-    color: black;
+    color: #725C5C;
 }
-
-
 
 .vidslaca {
     margin-top: 10vh;
@@ -131,5 +132,29 @@ ul ul a {
     width: 50vw;
     height: 50vh;
     float: left;
+}
 
+@media (max-width: 576px) {
+    .vidslaca {
+        margin-left: 15vw !important;
+    }
+    .texttpic {
+        font-size: 1vw !important;
+    }
+}
+
+@media (max-width: 768px) {
+    #sidebar.active {
+        margin-left: 0 !important;
+    }
+    .slaca13 {
+        width: 20vw !important;
+        height: 30vh !important;
+    }
+}
+
+@media (max-width: 992px) {
+    .vidslaca {
+        margin-left: 17vw !important;
+    }
 }

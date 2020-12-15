@@ -42,7 +42,7 @@
     font-family: Quicksand;
     font-style: normal;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 1vw;
     line-height: 22px;
     /* identical to box height */
     color: #ED7839;
@@ -59,9 +59,8 @@
     font-family: Quicksand;
     font-style: normal;
     font-weight: bold;
-    font-size: 12px;
+    font-size: 0.8vw;
     line-height: 15px;
-
 }
 
 .nametst:focus {
@@ -74,7 +73,7 @@
     font-family: Quicksand;
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 0.95vw;
     line-height: 17px;
     color: #4D4D4D;
 }
@@ -84,7 +83,6 @@
     border: none;
 }
 
-
 .ocultabotao {
     display: none;
 }
@@ -92,13 +90,13 @@
 .imgjs {
     float: left;
     margin-left: 1vw;
+    width: 0.28vw;
 }
 
 .imgjs2 {
-
     float: left;
     margin-left: 1vw;
-    width: 32px;
+    width: 2.2vw;
     margin-top: -0.5vh;
     cursor: pointer;
 }
@@ -108,7 +106,7 @@
     font-family: Segoe UI;
     font-style: normal;
     font-weight: 350;
-    font-size: 14px;
+    font-size: 1vw;
     line-height: 19px;
     /* identical to box height */
     color: #757575;
@@ -122,7 +120,7 @@
     font-family: Segoe UI;
     font-style: normal;
     font-weight: 350;
-    font-size: 14px;
+    font-size: 0.9vw;
     line-height: 19px;
     /* identical to box height */
     color: #757575;
@@ -138,6 +136,7 @@
     position: absolute;
     margin-left: 0vw;
     margin-top: -25vh;
+    width: 1.4vw;
 }
 
 .aviso {
@@ -145,15 +144,13 @@
     font-family: Quicksand;
     font-style: normal;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 1.08vw;
     line-height: 20px;
     text-align: center;
     margin-left: 28vw;
     margin-top: -20vh;
     color: #707070;
 }
-
-
 
 .backclass {
     position: absolute;
@@ -164,11 +161,10 @@
     margin-top: -15vh;
     border: none;
     background-color: transparent;
-
     font-family: Segoe UI;
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 0.9vw;
     line-height: 19px;
     cursor: pointer;
 }
@@ -182,11 +178,10 @@
     margin-top: -15vh;
     border: none;
     background-color: transparent;
-
     font-family: Segoe UI;
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 0.9vw;
     line-height: 19px;
     cursor: pointer;
 }
@@ -210,7 +205,7 @@
     font-family: Quicksand;
     font-style: normal;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 0.95vw;
     line-height: 137.5%;
     /* identical to box height, or 19px */
     text-align: center;
@@ -218,7 +213,7 @@
     color: #F48F44;
     margin-left: 10.5vw;
     margin-top: 4vh;
-    width: 250px;
+    width: 16.5vw;
     position: absolute;
     background-color: transparent;
     border: none;
@@ -235,12 +230,17 @@
 
 .imgplus {
     display: inline;
+    width: 1.1vw;
+}
+
+.texttpic {
+    color: white;
+    font-size: 1.1vw;
 }
 
 .trabocult {
     display: none;
 }
-
 
 .divcard {
     margin-right: 10vw;
@@ -253,14 +253,13 @@
     border: 1px solid #E7E7E7;
     box-sizing: border-box;
     border-radius: 8px;
-
 }
 
 .nametst2 {
     font-family: Quicksand;
     font-style: normal;
     font-weight: bold;
-    font-size: 12px;
+    font-size: 1vw;
     line-height: 15px;
     color: #5C5C5C;
     background: #F8F8F8;
@@ -278,7 +277,7 @@
     font-family: Quicksand;
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 1.2vw;
     line-height: 17px;
     color: #4D4D4D;
     background: #F8F8F8;
@@ -295,13 +294,14 @@
     position: absolute;
     margin-top: -16vh;
     margin-left: 33vw;
+    width: 1.4vw;
 }
 
 .autortxt {
     font-family: Quicksand;
     font-style: normal;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 1vw;
     line-height: 17px;
     /* identical to box height */
     text-align: right;
@@ -318,7 +318,7 @@
     font-family: Segoe UI;
     font-style: normal;
     font-weight: 350;
-    font-size: 14px;
+    font-size: 0.9vw;
     line-height: 19px;
     /* identical to box height */
     color: #757575;
@@ -329,10 +329,134 @@
     position: absolute;
     margin-top: -3vh;
     margin-left: 34vw;
-    width: 25px;
+    width: 1.5vw;
     cursor: pointer;
 }
 
 .ocult {
     display: none;
+}
+
+@media (max-width: 576px) {
+    .assuntotst {
+        font-size: 1vw !important;
+    }
+    .nametst {
+        font-size: 0.8vw !important;
+    }
+    .duvidatst {
+        font-size: 0.95vw !important;
+    }
+    .aviso {
+        left: 1vw !important;
+    }
+    .trabplus {
+        width: 14vw !important;
+    }
+    .anexbotao {
+        font-size: 1.5vw !important;
+    }
+    .autortxt {
+        margin-left: 55vw !important;
+        margin-top: -20vh !important;
+    }
+    .checkorg {
+        margin-left: 28vw !important;
+        margin-top: -19.5vh !important;
+    }
+    .sendorg {
+        margin-left: 28vw !important;
+    }
+    .imgjs {
+        margin-top: -4vh !important;
+    }
+    .imgjs2 {
+        margin-top: -4.3vh !important;
+        margin-left: 2vw !important;
+    }
+    .liketxt {
+        margin-top: -5vh !important;
+        margin-left: 5vw !important;
+    }
+    .rsptxt {
+        margin-top: -5vh !important;
+        margin-left: 3vw !important;
+    }
+    .contclass {
+        margin-top: -5vh !important;
+    }
+    .nametst2 {
+        font-size: 0.8vw !important;
+    }
+    .asnwer {
+        font-size: 1vw !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .assuntotst {
+        font-size: 1.2vw !important;
+    }
+    .nametst {
+        font-size: 1vw !important;
+    }
+    .duvidatst {
+        font-size: 1.15vw !important;
+    }
+    .trabplus {
+        width: 15.5vw !important;
+    }
+    .aviso {
+        font-size: 0.9vw !important;
+    }
+    .imgjs {
+        margin-top: 0.5vh !important;
+    }
+    .imgjs2 {
+        margin-top: 0.4vh !important;
+    }
+    .autortxt {
+        margin-left: 59vw !important;
+    }
+    .checkorg {
+        margin-left: 30vw !important;
+    }
+    .sendorg {
+        margin-left: 31vw !important;
+    }
+}
+
+@media (max-width: 992px) {
+    .formtst {
+        height: 22.5vh !important;
+    }
+    .anexbotao {
+        margin-left: 2vw !important;
+    }
+    .imgjs {
+        margin-top: 0.6vh !important;
+    }
+    .imgjs2 {
+        margin-top: 0.4vh !important;
+    }
+    .liketxt {
+        margin-top: 0.3vh !important;
+    }
+    .rsptxt {
+        margin-top: 0.3vh !important;
+    }
+    .contclass {
+        margin-top: 0.3vh !important;
+    }
+    .autortxt {
+        margin-left: 59vw !important;
+        margin-top: -14vh !important;
+    }
+    .checkorg {
+        margin-left: 30vw !important;
+        margin-top: -13.8vh !important;
+    }
+    .sendorg {
+        margin-left: 30vw !important;
+    }
 }
